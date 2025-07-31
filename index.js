@@ -7,7 +7,7 @@ import transcriptionRoutes from "./server/src/routes/transcription.routes.js";
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173" })); // Vite default
+app.use(cors({ origin: "*" })); // This allows all origins
 app.use(morgan("dev"));
 app.use(express.json());
 
