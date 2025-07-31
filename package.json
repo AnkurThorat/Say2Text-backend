@@ -2,10 +2,10 @@
   "name": "speech-mern",
   "version": "1.0.0",
   "type": "module",
-  "main": "server/src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/src/index.js",
-    "dev": "nodemon server/src/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
