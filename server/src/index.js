@@ -12,6 +12,9 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 app.use("/api", transcriptionRoutes);
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
 
 // 404
 app.use((req, res) => {
